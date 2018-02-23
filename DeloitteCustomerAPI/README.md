@@ -1,14 +1,22 @@
-**Title**
+**DELOITTE CUSTOMER API**
 ----
-  <_Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple)._>
+ Extend Deloitte Customer API to Mobile Applications, Saas applications, systems and services with the Anypoint Deloitte Customers connector from Deloitte. 
+ 
+The Deloitte Customer API gives a consumer the power to integrate Mobile Applications used by Customer Service Representatives to retrieve and update the customer details and maintain a copy of customers details.
+
+With the MuleSoft Anypoint connector, consumers can create instant API connectivity to the Deloitte Customer API, providing a simple, pre-packaged way to manage customers data with Deloitte without having to connect with the back-end platform directly. 
+
 
 * **URL**
 
-  <_The URL Structure (path only, no root url)_>
+  /customers
+  
+  /customers/{customerID}
+
 
 * **Method:**
   
-  <_The request type_>
+  It defines the basic following operations for customers and uses data type and example fragments.
 
   `GET` | `POST` | `DELETE` | `PUT`
   
@@ -16,17 +24,18 @@
 
    <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
 
-   **Required:**
+   **Required: Applicable for PUT & DELETE Methods.**
  
-   `id=[integer]`
+   `customerID=[integer]`
 
-   **Optional:**
+   **Optional: Not Applicable**
  
-   `photo_id=[alphanumeric]`
-
+   
 * **Data Params**
 
-  <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
+  **POST Request:** 
+    The request message should not have a customer ID, as this is a system generated unique identifier and will be given by Deloitte    customer system after successful addition and validation.
+
 
 * **Success Response:**
   
