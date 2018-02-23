@@ -35,9 +35,10 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
 
   **POST Request:** 
     The request message should not have a customer ID, as this is a system generated unique identifier and will be given by Deloitte    customer system after successful addition and validation.
+  
+  ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/POST_Request.png)
 
-
-* **Success Response:**
+ **POST Success Response:**
   
   <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
