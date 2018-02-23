@@ -22,45 +22,46 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
   
 *  **URL Params**
 
-   <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
-
-   **Required: Applicable for PUT & DELETE Methods.**
+      **Required: Applicable for PUT & DELETE Methods.**
  
-   `customerID=[integer]`
+   `     customerID=[integer]`
 
-   **Optional: Not Applicable**
+      **Optional: Not Applicable**
  
    
 * **Data Params**
 
-  **POST Request:** 
-    The request message should not have a customer ID, as this is a system generated unique identifier and will be given by Deloitte    customer system after successful addition and validation.
+   **POST Request:** 
+      The request message should not have a customer ID, as this is a system generated unique identifier and will be given by Deloitte    customer system after successful addition and validation.
   
   ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/POST_Request.png)
 
- **POST Success Response:**
+    **POST Success Response:**
   
-  <_What should the status c1ode be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
+  ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/POST_Response.PNG)
 
-  * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
+    **PUT Request:** 
+   The relevant customer ID needs to be included in URI param per below  to perform update on particular customer details.
+   
+   ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/PUT_Request.PNG)
  
-* **Error Response:**
-
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
-
-  OR
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
-
-* **Sample Call:**
-
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
-
-* **Notes:**
-
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 
+    **PUT Success Response:** 
+ 
+   ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/PUT_Response.PNG)
+   
+    **DELETE Request:** 
+    The relevant customer ID needs to be included in URI param per below to perform delete on particular customer details.
+    
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/DELETE_Request.png)
+    
+    **DELETE Success Response:** 
+ 
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/DELETE_Response.png)
+ 
+  * **HTTP Error Codes:** 
+     
+      **Code: 404** 
+         Resource Name: customerdetails
+         **Error Response:**
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_404.png)
+  
