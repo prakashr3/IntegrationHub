@@ -22,12 +22,20 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
   
 *  **URL Params**
 
-      **Required: Applicable for PUT & DELETE Methods.**
+      **Required:** Applicable for PUT & DELETE Methods.
  
    `     customerID=[integer]`
 
-      **Optional: Not Applicable**
-    
+      **Optional:** NOT Applicable
+ 
+*  **Query Params**
+
+      **Required:** NOT Applicable         
+
+      **Optional:** Applicable for GET Method
+      
+         customerID=[integer]
+            
 * **Data Params**
 
    **POST Request:** 
