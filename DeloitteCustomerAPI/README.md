@@ -27,8 +27,7 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
    `     customerID=[integer]`
 
       **Optional: Not Applicable**
- 
-   
+    
 * **Data Params**
 
    **POST Request:** 
@@ -58,10 +57,42 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
  
     ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/DELETE_Response.png)
  
-  * **HTTP Error Codes:** 
+ 
+* **HTTP Error Codes**
+
+   **Code: 404** 
+   
+     Resource Name: customerdetails
      
-      **Code: 404** 
-         Resource Name: customerdetails
-         **Error Response:**
-    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_404.png)
+     **Error Response:**
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_404.png) 
+    
+   **Code: 415** 
+   
+     Content Type: Text
+     
+     **Error Response:**     
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_415_1.png) 
+    
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_415_2.png)
+    
+
+   **Code: 405** 
+   
+     URL: Resource without Customer ID
+     
+     **Error Response:**
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_405.png) 
+    
+
+   **Code: 400** 
+   
+     Body Content: Invalid JSON Format
+     
+     **Error Response:**     
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_400_1.png) 
+    
+    ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_400_2.png)
+    
+       
   
