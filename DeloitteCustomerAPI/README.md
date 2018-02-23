@@ -1,6 +1,6 @@
 **DELOITTE CUSTOMER API**
 ----
- Extend Deloitte Customer API to Mobile Applications, Saas applications, systems and services with the Anypoint Deloitte Customers connector from Deloitte. 
+ Extend Deloitte Customer API to Mobile Applications, Saas applications, systems and services with the Anypoint Deloitte Customer connector from Deloitte. 
  
 The Deloitte Customer API gives a consumer the power to integrate Mobile Applications used by Customer Service Representatives to retrieve and update the customer details and maintain a copy of customers details.
 
