@@ -40,7 +40,7 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
 * **Data Params**
 
    **POST Request:** 
-      The request message should not have a customer ID, as this is a system generated unique identifier and will be given by Deloitte    customer system after successful addition and validation.
+      The request message should not have a customer ID, as Customer ID is a system generated unique identifier and will be given by Deloitte    customer system after successful addition and validation.
   
   ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/POST_Request.png)
 
