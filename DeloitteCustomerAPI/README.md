@@ -67,8 +67,17 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
     ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/DELETE_Response.png)
  
  
-* **HTTP Error Codes**
+* **HTTP Success Codes**
 
+   **Code: 200** 
+       
+   **Code: 201** 
+    
+     Content: {"message": "Customer details added (but not really)"}
+   ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/POST_Response.PNG)
+
+* **HTTP Error Codes**
+  
    **Code: 404** 
    
      Resource Name: customerdetails
@@ -88,7 +97,7 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
 
    **Code: 405** 
    
-     URL: Resource without Customer ID
+     URL Content: Resource without Customer ID
      
      **Error Response:**
     ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/http_405.png) 
