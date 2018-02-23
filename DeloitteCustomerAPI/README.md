@@ -26,11 +26,11 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
  
    `     customerID=[integer]`
 
-      **Optional:** NOT Applicable
+      **Optional:** Not Applicable
  
 *  **Query Params**
 
-      **Required:** NOT Applicable         
+      **Required:** Not Applicable         
 
       **Optional:** Applicable for GET Method
 
