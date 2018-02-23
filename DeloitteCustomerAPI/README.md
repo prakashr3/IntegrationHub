@@ -26,13 +26,13 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
  
    `     customerID=[integer]`
 
-      **Optional:** Not Applicable
+      **Optional:** Not Applicable.
  
 *  **Query Params**
 
-      **Required:** Not Applicable         
+      **Required:** Not Applicable.         
 
-      **Optional:** Applicable to GET Method
+      **Optional:** Applicable to GET Method.
 
    `     customerID=[integer]`
    
@@ -40,7 +40,7 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
 * **Data Params**
 
    **POST Request:** 
-      The request message should not have a customer ID, as Customer ID is a system generated unique identifier and will be given by Deloitte    customer system after successful addition and validation.
+      The request message should not have a customer ID, as Customer ID is a system generated unique identifier and will be given by Deloitte    customers management system after successful addition and data verification.
   
   ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/POST_Request.png)
 
