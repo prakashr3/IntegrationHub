@@ -70,7 +70,12 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
 * **HTTP Success Codes**
 
    **Code: 200** 
-       
+     
+     Content:
+       1. {"message": "Customer details deleted(but not really)"}
+       2. { "CustomerID" : 1, "FirstName" : "John", "LastName" : "Nelson", "Address" : { "AddressLine1" : "Unit No 18-22", "AddressLine2" : "Beresford Road", "Suburb" : "Seven Hills", "State" : "NSW" } }, { "CustomerID" : 2, "FirstName" : "David", "LastName" : "Tupper", "Address" : { "AddressLine1" : "Unit No 1-4", "AddressLine2" : "The Crescent", "Suburb" : "North Sydney", "State" : "NSW" } }
+       3. {"message": "Customer updated (but not really)"}
+     
    **Code: 201** 
     
      Content: {"message": "Customer details added (but not really)"}
