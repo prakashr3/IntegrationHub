@@ -82,7 +82,7 @@ With the MuleSoft Anypoint connector, consumers can create instant API connectiv
    **Code: 201** 
     
      Content: {"message": "Customer details added (but not really)"}
-   ![alt text](https://github.com/prakashr3/IntegrationHub/blob/master/DeloitteCustomerAPI/Images/POST_Response.PNG)
+   
 
 * **HTTP Error Codes**
   
